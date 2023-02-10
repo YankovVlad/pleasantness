@@ -1,0 +1,11 @@
+.compliment {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  &.hidden {
+    opacity: 0;
+  }
+
+}
